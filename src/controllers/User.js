@@ -23,13 +23,13 @@ module.exports = {
     },
 
     finduser(req, res) {
-        let user = req.params.user;
+        let user = req.params.usuario;
         Usuario.findOne({
             usuario: user
         }).then((resp) => {
             res.json({
                 status: 'success',
-                message: 'Usuario creado exitosamente',
+                message: 'Usuario listado exitosamente',
                 details: resp
             })
         }).catch((err) => {
