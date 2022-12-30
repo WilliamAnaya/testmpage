@@ -20,7 +20,7 @@
     "express-ip": "^1.0.4",
     "ipware": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
-    "mocha": "^7.1.2",
+    "mocha": "^10.2.0",
     "mockgoose": "^8.0.4",
     "mongoose": "^5.9.11",
     "passport": "^0.4.1",
